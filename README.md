@@ -50,5 +50,4 @@ Fingerprint: /repo/.env:generic-api-key:1
 
 Copy the following values into your `.env.sample`:
 
-<script src="https://gist.github.com/williampsena/4154be8db8c59a992acf746420765dcc.js"></script>
-
+[View the Gist](https://gist.github.com/williampsena/4154be8db8c59a992acf746420765dcc)
