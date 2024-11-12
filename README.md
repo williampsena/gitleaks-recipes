@@ -45,3 +45,10 @@ File:        /repo/.env
 Line:        1
 Fingerprint: /repo/.env:generic-api-key:1
 ```
+
+# How do I fake a failure using scan?
+
+Copy the following values into your `.env.sample`:
+
+<script src="https://gist.github.com/williampsena/4154be8db8c59a992acf746420765dcc.js"></script>
+
