@@ -38,7 +38,7 @@ leaks-report:
 
 help:
 	@echo "Makefile Commands:"
-	@echo "  precommit        Run gitleaks-history check before commit"
+	@echo "  pre-commit        Run gitleaks-history check before commit"
 	@echo "  leaks-history    Run gitleaks history detection on the repository"
 	@echo "  leaks            Run gitleaks detection on the repository directory"
 	@echo "  leaks-report     Run gitleaks with a report on the repository directory"
