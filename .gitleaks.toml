@@ -1,0 +1,25 @@
+# Gitleaks Configuration
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "global allow list"
+paths = [
+  '''gitleaks\.toml''',
+  '''gitleaks-report\.json''',
+  '''\.env$''',
+  '''(.*?)(jpg|gif|doc)''',
+]
+
+[[rules]]
+id="aws-access-key"
+description = "AWS Access Key"
+regex = '''AKIA[0-9A-Z]{16}'''
+tags = ["key", "AWS"]
+
+[[rules]]
+id="aws-access-secret"
+description = "AWS Secret Key"
+regex = '''(?i)aws_secret_access_key\s*=\s*[A-Za-z0-9/+=]{40}'''
+tags = ["key", "AWS"]
