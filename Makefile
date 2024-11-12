@@ -6,7 +6,7 @@ GITLEAKS_IMAGE := zricethezav/gitleaks:latest
 GITLEAKS_CONFIG := $(REPO_PATH)/.gitleaks.toml
 GITLEAKS_REPORT := $(REPO_PATH)/gitleaks-report.json
 
-precommit: leaks
+pre-commit: leaks
 
 leaks-history:
 	docker run --rm \
